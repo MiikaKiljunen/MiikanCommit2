@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string-array name="Diets">
+        <item></item>
+        <item>Omnivore</item>
+        <item>Vegan</item>
+        <item>Vegetarian</item>
+    </string-array>
+
+    <string-array name="Confirm">
+        <item></item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    
+</resources>

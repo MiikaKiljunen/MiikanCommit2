@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextRestaurant"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="€"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_RestaurantSpend" />
+
+    <EditText
+        android:id="@+id/editTextWinterSalad"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_winterSalardLevel" />
+
+    <EditText
+        android:id="@+id/editTextEgg"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_eggLevel" />
+
+    <EditText
+        android:id="@+id/editTextRice"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_riceLevel" />
+
+    <EditText
+        android:id="@+id/editTextCheese"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_cheeseLevel" />
+
+    <EditText
+        android:id="@+id/editTextDairy"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_dairyLevel" />
+
+    <EditText
+        android:id="@+id/editTextPork"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_porkPoultry" />
+
+    <EditText
+        android:id="@+id/editTextFish"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_fishLevel" />
+
+    <EditText
+        android:id="@+id/editTextBeef"
+        android:layout_width="82dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="241dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="%"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_beefLevel" />
+
+    <TextView
+        android:id="@+id/text_RestaurantSpend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Money spent on restaurants (Euro)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_winterSalardLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_winterSalardLevel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_winterSalardLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="Winter salad consumption"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_eggLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_eggLevel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_riceLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Rice consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_cheeseLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_cheeseLevel" />
+
+    <TextView
+        android:id="@+id/text_cheeseLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Cheese consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_dairyLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_dairyLevel" />
+
+    <TextView
+        android:id="@+id/text_dairyLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Dairy consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_porkPoultry"
+        app:layout_constraintTop_toBottomOf="@+id/text_porkPoultry" />
+
+    <TextView
+        android:id="@+id/text_porkPoultry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Pork and poultry consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_fishLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_fishLevel" />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="All values are compared to the Finnish average unless specified otherwise."
+        app:layout_constraintBottom_toTopOf="@+id/text_diet"
+        app:layout_constraintStart_toStartOf="@+id/text_diet" />
+
+    <TextView
+        android:id="@+id/text_beefLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Beef consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_lowCarbon"
+        app:layout_constraintTop_toBottomOf="@+id/text_lowCarbon" />
+
+    <TextView
+        android:id="@+id/text_lowCarbon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Do you prefer low carbon options?"
+        app:layout_constraintStart_toStartOf="@+id/text_diet"
+        app:layout_constraintTop_toBottomOf="@+id/text_diet" />
+
+    <TextView
+        android:id="@+id/text_diet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your diet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <TextView
+        android:id="@+id/text_eggLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Egg consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_riceLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_riceLevel" />
+
+    <TextView
+        android:id="@+id/text_fishLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Fish consumption"
+        app:layout_constraintStart_toStartOf="@+id/text_beefLevel"
+        app:layout_constraintTop_toBottomOf="@+id/text_beefLevel" />
+
+    <Spinner
+        android:id="@+id/spinnerDiet"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="200dp"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_diet" />
+
+    <Spinner
+        android:id="@+id/spinnerCarbon"
+        android:layout_width="120dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@+id/text_diet"
+        app:layout_constraintTop_toTopOf="@+id/text_diet" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="548dp"
+        android:text="Done"
+        app:layout_constraintStart_toStartOf="@+id/text_diet"
+        app:layout_constraintTop_toBottomOf="@+id/text_diet" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
